@@ -486,7 +486,16 @@ GEM
       actionpack (>= 4.0)
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
-    sqlite3 (1.4.2)
+    sqlite3 (2.0.3-aarch64-linux-gnu)
+    sqlite3 (2.0.3-aarch64-linux-musl)
+    sqlite3 (2.0.3-arm-linux-gnu)
+    sqlite3 (2.0.3-arm-linux-musl)
+    sqlite3 (2.0.3-arm64-darwin)
+    sqlite3 (2.0.3-x86-linux-gnu)
+    sqlite3 (2.0.3-x86-linux-musl)
+    sqlite3 (2.0.3-x86_64-darwin)
+    sqlite3 (2.0.3-x86_64-linux-gnu)
+    sqlite3 (2.0.3-x86_64-linux-musl)
     stackprof (0.2.17)
     strscan (3.0.2)
     sucker_punch (3.0.1)
@@ -606,7 +615,7 @@ DEPENDENCIES
   sidekiq
   sneakers
   sprockets-export
-  sqlite3 (~> 1.4)
+  sqlite3 (>= 1.4)
   stackprof
   sucker_punch
   turbolinks (~> 5)
